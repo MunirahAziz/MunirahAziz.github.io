@@ -1,0 +1,116 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  display: block;
+  background-image: url("images/space.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul li{
+  list-style: none;
+  margin: 10px;
+}
+
+h1{
+  font-family: 'Euphoria Script', cursive;
+  font-size: 30px;
+}
+
+.left{
+  align-items: center;
+  margin: auto;
+}
+
+.left img{
+  width: 10%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+
+.main{
+  opacity: 0.9;
+  height: 430px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.isi{
+  text-align: center;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  padding:10px;
+  position: sticky;
+  top: 0;
+}
+
+.isi:nth-child(1){
+  background-color: #DDAAC9;
+}
+
+.isi:nth-child(2){
+  background-color: #BA9FCB;
+}
+.isi:nth-child(3){
+  background-color: #DDAAC9;
+}
+.isi:nth-child(4){
+  background-color: #BA9FCB;
+}
+
+.isi:nth-child(5){
+  background-color: #DDAAC9;
+}
+.isi:nth-child(6){
+  background-color: #BA9FCB;
+}
+
+.main ul li{
+  border: 2px solid maroon;
+  border-radius: 5px;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.logo{
+  width:10%;
+  margin: auto;
+}
+
+.skillset ul li{
+  text-align: left;
+  border: none;
+  color: white;
+  padding: 15px;
+}
+
+.speak{
+  width: 80%;
+  background-color: #8C3269;
+}
+
+.listen{
+  width:85%;
+  background-color: #5B2F77;
+}
+.team{
+  width: 90%;
+  background-color: #8C3269;
+}
+.write{
+  width: 80%;
+  background-color: #5B2F77;
+}
+.creative{
+  width: 85%;
+  background-color: #8C3269;
+}
