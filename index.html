@@ -3,16 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Munirah</title>
-    <script type="text/javascript" src="path_to/jquery.js"></script>
-    <script type="text/javascript" src="path_to/jquery.simplePagination.js"></script>
-    <link type="text/css" rel="stylesheet" href="path_to/simplePagination.css"/>
     <link rel="icon" href="images/profile-pic.ico">
     <link href="https://fonts.googleapis.com/css?family=Sarina" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Euphoria+Script" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js">
-
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.thumb a').click(function(e){
+        e.preventDefault();
+        $('.imgbox img').attr("src",$(this).attr("href"));
+      })
+    })
     </script>
   </head>
   <body>
@@ -60,20 +66,16 @@
         </div>
         <div class="isi interest">
           <h1>Interests</h1><br>
-          <div class="digital">
-
+          <div class="imgbox">
+            <img src="images/img1.jpg" alt="">
           </div>
-          <div class="drawing">
-
-          </div>
-          <div class="crochet">
-
-          </div>
-          <div class="stitch">
-
-          </div>
+          <ul class="thumb">
+            <li><a href="images/img1.jpg" target="imgbox"><img src="images/img1.jpg" alt=""></a></li>
+            <li><a href="images/img2.jpg" target="imgbox"><img src="images/img2.jpg" alt=""></a></li>
+            <li><a href="images/img3.jpg" target="imgbox"><img src="images/img3.jpg" alt=""></a></li>
+            <li><a href="images/img4.jpg" target="imgbox"><img src="images/img4.jpg" alt=""></a></li>
+          </ul>
         </div>
-    <footer></footer>
 
   </body>
 </html>
