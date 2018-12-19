@@ -64,11 +64,10 @@ h1{
 
 
 .skillset ul li{
-  text-align: left;
+  text-align: right;
   border: none;
   border-radius: 5px;
   color: white;
-  padding: 15px;
   opacity: .9;
 }
 
@@ -96,7 +95,7 @@ h1{
 
 .imgbox{
   width: 400px;
-  height: 700px;
+  height: 1000px;
   margin: 20px auto 10px;
   float: left;
 }
@@ -117,5 +116,5 @@ h1{
 
 .interest ul li img{
   width: 120px;
-  margin: 20px auto 10px;
+  margin:auto;
 }
