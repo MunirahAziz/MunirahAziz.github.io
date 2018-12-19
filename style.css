@@ -32,7 +32,7 @@ h1{
   width: 10%;
   border-radius: 50%;
   display: block;
-  margin: auto;
+  margin: 10px auto;
 }
 
 
@@ -47,44 +47,21 @@ h1{
   text-align: center;
   width: 80%;
   height: 80%;
-  margin: 0 auto;
-  padding:10px;
-  position: sticky;
-  top: 0;
+  margin: 20px auto;
+  padding:30px;
+  border-radius: 10px;
+  border: 1px solid white;
+  top: 30px;
+  color: white;
 }
 
-.isi:nth-child(1){
-  background-color: #DDAAC9;
-}
 
-.isi:nth-child(2){
-  background-color: #BA9FCB;
-}
-.isi:nth-child(3){
-  background-color: #DDAAC9;
-}
-.isi:nth-child(4){
-  background-color: #BA9FCB;
-}
-
-.isi:nth-child(5){
-  background-color: #DDAAC9;
-}
-.isi:nth-child(6){
-  background-color: #BA9FCB;
-}
-
-.main ul li{
-  border: 2px solid maroon;
-  border-radius: 5px;
-  margin: 10px;
-  list-style-type: none;
-}
 
 .logo{
   width:10%;
   margin: auto;
 }
+
 
 .skillset ul li{
   text-align: left;
