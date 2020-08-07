@@ -21,6 +21,10 @@ h2{
   background-image: url("img/darkwood.jpeg");
 }
 
+h3{
+  line-height: 28px;
+}
+
 p{
   line-height: 26px;
 }
@@ -115,6 +119,11 @@ section li{
 
 .points{
   padding: 10px;
+  text-align: justify;
+}
+
+.right{
+  text-align: right;
 }
 
 #dp{
